@@ -44,7 +44,7 @@ public class PhrasesActivity extends AppCompatActivity {
 
 
 //        Find root view of the whole layout
-        WordAdapter adapter = new WordAdapter(this, words);
+        WordAdapter adapter = new WordAdapter(this, words, R.color.category_phrases);
 
         ListView listView = (ListView) findViewById(R.id.list);
 
